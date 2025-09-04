@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import '../../app.css';
+import '../../App.css';
 
 function ScrollReveal({ children }) {
   const ref = useRef();
