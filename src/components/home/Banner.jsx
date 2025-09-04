@@ -1,5 +1,6 @@
 import React from 'react'
-import './../../app.css'
+import '../../app.css'
+
 
 function Banner() {
     return (
