@@ -1,0 +1,55 @@
+.banner-with-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    z-index: 0;
+  }
+
+  .middle-banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: 0;
+  }
+
+
+  @keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+  
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+
+  .animate-slide-up {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.6s ease-out;
+  }
+  
+  .animate-slide-up.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+ 
