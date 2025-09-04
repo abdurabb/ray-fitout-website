@@ -14,8 +14,6 @@ function Home() {
       <Materials />
       <Faq />
       <OtherServices />
-
-
     </>
   )
 }
