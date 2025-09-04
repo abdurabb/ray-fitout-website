@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Main from './layout/Main'
 
 // pages
-import Home from './pages/home/Home'
+import Home from './pages/home/Home.jsx'
 
 
 
